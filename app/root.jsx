@@ -8,6 +8,8 @@ import {
 
 import "./tailwind.css";
 
+
+
 export const links = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
   {
@@ -29,6 +31,7 @@ export function Layout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        <link rel='stylesheet'  href=""/>
       </head>
       <body>
         {children}
@@ -42,3 +45,4 @@ export function Layout({ children }) {
 export default function App() {
   return <Outlet />;
 }
+
