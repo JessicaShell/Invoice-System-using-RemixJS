@@ -16,14 +16,26 @@ export const meta = () => {
   ];
 };
 
+
+export let loader = () => {
+  return [
+    { id: 1, name: "Bohemian Platform Bed", price: 599.00 },
+    { id: 2, name: "Yoji Chair", price: 499.00 },
+    { id: 3, name: "Elise Vanity And Stool Set", price: 549.00 },
+    { id: 4, name: "Amelia Nightstand", price: 379.00 },
+  ];
+};
+
 export default function Index() {
+
+  
   return (
     <body>
         <header>
             <div class="nav">
                 <h1>Urban Outfitters</h1>
                 <ul class="nav-links">
-                    <Link to="/GoToCart">Go To Cart </Link>
+                    <Link to="/cart">Go To Cart </Link>
                 </ul>
             </div>
         </header>
@@ -93,8 +105,11 @@ export default function Index() {
         
     </body>
   )
+
 }
 
 export function links(){
   return [{rel:'stylesheet', href: styles}]
 }
+
+
