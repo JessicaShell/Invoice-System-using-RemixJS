@@ -14,7 +14,7 @@ export default function DiffBeddings(){
                 <div class="nav">
                     <h1>Beddings</h1>
                     <ul class="nav-links">
-                        <Link to="/GoToCart">Go To Cart </Link>
+                        <Link to="/cart">Go To Cart </Link>
                     </ul>
                 </div>
             </header>

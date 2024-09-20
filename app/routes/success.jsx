@@ -6,7 +6,7 @@ export default function Success() {
       <div>
         <h1>Order Successful!</h1>
         <p>Your order has been successfully processed.</p>
-        <Link to="/_index">Return to Home</Link>
+        <Link to="/">Return to Home</Link>
       </div>
     );
   }
